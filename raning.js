@@ -1,9 +1,11 @@
-let weight=20;
-let height=10;
-let BMI;
-BMI = (weight / (height * height));
-if(BMI >= 25 ){console.log(" Overweight");}
+let oldsum=0;
+let newsum=1;
+let temp;
+for(i=1;i<8;i++){
+  newsum=oldsum + newsum;
+  temp=oldsum;
+  oldsum=newsum;
+   newsum=temp;
+console.log("F(N)=" +newsum)
+}
 
-else if (BMI> 18,5 && BMI < 24,9 ){console.log("Normal");}
-else 
-{console.log("Underweight");}
