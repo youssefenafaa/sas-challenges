@@ -61,21 +61,12 @@ if( A + b + c < 0){console.log("inferieur 0");}
 else if(A + b + c ==180){console.log("triangle");}
 else{console.log("aucun triangle")}
 // Declare variables for weight (kg) and height (m). Calculate the BMI (weight / (height * height)). Log the BMI along with a category: "Underweight" (<18.5), "Normal" (18.5-24.9), or "Overweight" (>=25).
-let weight;
-let height;
+let weight=20;
+let height=10;
 let BMI;
 BMI = (weight / (height * height));
 if(BMI >= 25 ){console.log(" Overweight");}
-}
+
 else if (BMI> 18,5 && BMI < 24,9 ){console.log("Normal");}
 else 
-    
-    
-    (BMI<18,5){
-    console.log("Underweight");(BMI >= 25 ){console.log(" Overweight");}
-
-
-
-    
-
-
+{console.log("Underweight");}

@@ -1,6 +1,9 @@
-let A =45;
-let b =45;
-let c =90;
-if( A + b + c < 0){console.log("inferieur 0");} 
-else if(A + b + c ==180){console.log("triangle");}
-else{console.log("aucun triangle")}
+let weight=20;
+let height=10;
+let BMI;
+BMI = (weight / (height * height));
+if(BMI >= 25 ){console.log(" Overweight");}
+
+else if (BMI> 18,5 && BMI < 24,9 ){console.log("Normal");}
+else 
+{console.log("Underweight");}
