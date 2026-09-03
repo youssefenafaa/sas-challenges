@@ -14,12 +14,12 @@ for(let i=1;i<=100;i++){
 // Multiplication Table: Choose a number (e.g., 5). Use a for loop to print its multiplication table from 1 to 10 (e.g., "5 x 1 = 5", "5 x 2 = 10").
 
 for (i=0;i<=50;i++){
-    if(i%3==0){console.log("FIZZ");}
+    if(i%3==0 && i%5==0 ){console.log("FIZZBUZZ");}
     else if (i%5==0){console.log("BUZZ");}
-    else if (i%3==0 && i%5==0 ){console.log("FIZZBUZZ");}
+    else if (i%3==0){console.log("FIZZ");}
     else {console.log(i);}}
-    // Count Vowels (Loop): Declare a string variable. Use a for loop to iterate over each character of the string and count how many vowels (a, e, i, o, u) it contains.
-     let chaine = "joseph";
+// Count Vowels (Loop): Declare a string variable. Use a for loop to iterate over each character of the string and count how many vowels (a, e, i, o, u) it contains.
+ let chaine = "joseph";
 let cont=0; // 0
 for (i=0;i<chaine.length;i++){
     if(chaine[i] == "a" || chaine [i] == "e" ||chaine [i] == "i" || chaine [i] == "o" || chaine [i] == "u")

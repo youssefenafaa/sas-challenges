@@ -1,11 +1,9 @@
-let oldsum=0;
-let newsum=1;
-let temp;
-for(i=1;i<8;i++){
-  newsum=oldsum + newsum;
-  temp=oldsum;
-  oldsum=newsum;
-   newsum=temp;
-console.log("F(N)=" +newsum)
-}
+function createMultiplier(multiplier){
 
+    
+    return{ renvoye:(a)=> a*multiplier
+        
+    }
+}
+let  resolt =createMultiplier(2);
+console.log(resolt.renvoye(2));
