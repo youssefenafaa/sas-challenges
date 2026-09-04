@@ -1,9 +1,13 @@
-function createMultiplier(multiplier){
-
-    
-    return{ renvoye:(a)=> a*multiplier
+function contChar(str,char){
+    let compt=0;
+for (i=0;i<=str.length;i++)
+{
+    if (str[i]==char){
+        compt++;
         
-    }
+}    
+
 }
-let  resolt =createMultiplier(2);
-console.log(resolt.renvoye(2));
+return compt;}
+
+contChar("aabcd","a");
